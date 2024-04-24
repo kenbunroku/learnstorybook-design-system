@@ -52,7 +52,7 @@ const StyledButton = styled.button`
   margin: 0;
   background: transparent;
 
-  font-size: 20px;
+  font-size: 16px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 

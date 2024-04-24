@@ -16,7 +16,7 @@
     "prebuild": "yarn clean",
     "release": "yarn build && auto shipit",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6007",
     "build-storybook": "storybook build"
   },
   "devDependencies": {
@@ -40,6 +40,7 @@
     "@storybook/react": "^8.0.9",
     "@storybook/react-vite": "^8.0.9",
     "@storybook/test": "^8.0.9",
+    "@storybook/test-runner": "^0.17.0",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
     "boxen": "^5.0.1",

@@ -76,8 +76,9 @@ export const Large = {
 };
 
 const Template = (args) => <Avatar {...args} />;
-export const Conrols = Template.bind({});
-Conrols.args = {
+
+export const Controls = Template.bind({});
+Controls.args = {
   loading: false,
   size: 'large',
   username: 'Dominic Nguyen',
